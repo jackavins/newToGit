@@ -1,3 +1,3 @@
 <?php
-echo "Hello Virtual Atul!";
+echo "Hello ".(isset($_GET['name']) ? $_GET['name'] : "World");
 ?>
